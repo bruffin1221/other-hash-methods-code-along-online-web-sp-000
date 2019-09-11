@@ -16,8 +16,9 @@ def get_the_min(groceries)
     meat: ["chicken", "steak", "salmon"],
     grains: ["rice", "pasta"]
   }
-store<<groceries.values
-store.flatten
+  store<<groceries.values
+  store.flatten
+end
 store[4]
-binding.pry
+binding.binding.pry
 end
