@@ -16,5 +16,6 @@ def get_the_min(groceries)
     grains: ["rice", "pasta"]
   }
 groceries.values.flatten
+groceries[4]
 binding.pry
 end
