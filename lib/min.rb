@@ -17,6 +17,6 @@ def get_the_min(groceries)
     grains: ["rice", "pasta"]
   }
   store<<groceries.values
-  store.flatten
+  store.flatten.sort
   binding.pry
 end
