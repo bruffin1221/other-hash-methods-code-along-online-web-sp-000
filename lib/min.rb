@@ -18,7 +18,6 @@ def get_the_min(groceries)
   }
   store<<groceries.values
   store.flatten
-end
-store[4]
-binding.binding.pry
+  store[4]
+  binding.binding.pry
 end
